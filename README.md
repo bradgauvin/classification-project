@@ -163,7 +163,7 @@ Project Questions:
  - [x] Store env file in local repository
  - [x] Make .gitignore and validate env.py file is part of .gitignore
  - [ ] Clone my repo
- - [ ] Import python libraries: pandas, matplotlib, seaborn, numpy, and sklearn
+ - [ ] Import python libraries: pandas, matplotlib, seaborn, numpy, scipy, and sklearn
  - [ ] follow steps outlined in README.md and churn_report.ipynb
  
 
