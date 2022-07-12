@@ -138,10 +138,10 @@ Project Questions:
 - Model:
 ** Using Jupter Notebook:
   - [x] Establish Baseline Accuracy
-  - [ ] Train and fit 3 Models 
-  - [ ] Remove unnecessary features
-  - [ ] Evaluate Best Performing Models
-  - [ ] Choose Best performing model for test
+  - [x] Train and fit 3 Models 
+  - [x] Remove unnecessary features
+  - [x] Evaluate Best Performing Models
+  - [x] Choose Best performing model for test
   - [ ] Test Final Model on out-of-sample dataset
   - [ ] Summarize Performance
   - [ ] Interpret and document findings
@@ -162,8 +162,9 @@ Project Questions:
  - [x] You need an env.py file with hostname, username, and password for mySQL database that contains the telco_churn database
  - [x] Store env file in local repository
  - [x] Make .gitignore and validate env.py file is part of .gitignore
- - [ ] Clone my repo
+ - [x] Clone my repo
  - [ ] Import python libraries: pandas, matplotlib, seaborn, numpy, scipy, and sklearn
+ - [ ] modeling.py is available for reference - codes had to be adjusted for telco data set
  - [ ] follow steps outlined in README.md and churn_report.ipynb
  
 
