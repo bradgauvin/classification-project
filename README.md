@@ -169,6 +169,9 @@ Project Questions:
 
 ## Key Findings and Recommendations
  - [ ] Key finding to come when analysis is complete
+ 
+## Errors and Limitations
+ - Didn't split dataset before explortation.  Data set was rerun splitting into train, validate, and test with train being renamed to df2.  This was to ensure that all df2 codes didn't have to be updated. 
 
 ## Future Work 
  - 
