@@ -189,3 +189,6 @@ Project Questions:
 ## Future Work 
  - Recommend combing modleing results into dataframe and allowing the notebook to choose the highest accurcay/recall values
  - Try to write and test code out of your notebook and put final results in the notebook you're using.
+ - Focus on key questions.  New insight will come when doing EDA, but keeping the project questions in mind will keep you focused.  
+      - Keep customer's focus
+      - SHow where you answer the questions
