@@ -142,7 +142,7 @@ Project Questions:
   - [x] Remove unnecessary features
   - [x] Evaluate Best Performing Models
   - [x] Choose Best performing model for test
-  - [ ] Test Final Model on out-of-sample dataset
+  - [x ] Test Final Model on out-of-sample dataset
   - [ ] Summarize Performance
   - [ ] Interpret and document findings
 
@@ -163,8 +163,8 @@ Project Questions:
  - [x] Store env file in local repository
  - [x] Make .gitignore and validate env.py file is part of .gitignore
  - [x] Clone my repo
- - [ ] Import python libraries: pandas, matplotlib, seaborn, numpy, scipy, and sklearn
- - [ ] modeling.py is available for reference - codes had to be adjusted for telco data set
+ - [x] Import python libraries: pandas, matplotlib, seaborn, numpy, scipy, eli5 and sklearn
+ - [x] modeling.py is available for reference - codes had to be adjusted for telco data set, but used as a reference point
  - [ ] follow steps outlined in README.md and churn_report.ipynb
  
 
@@ -173,6 +173,11 @@ Project Questions:
  
 ## Errors and Limitations
  - Didn't split dataset before explortation.  Data set was rerun splitting into train, validate, and test with train being renamed to df2.  This was to ensure that all df2 codes didn't have to be updated. 
+     - Recommend splitting data before exploration
+     - Find additional ways to highlight features.  I used eli5, but may need to explore dtale, featurewix, or feature_selection from sklearn.
+ 
+ - Adjusted features multiple times.  This caused some errors while writing the codes.  If you see features re-defined in the code, this is where I had trouble due to adjusting features.
+   - Recommend future features are identified and not changed until modeling is completed
 
 ## Future Work 
  - 
