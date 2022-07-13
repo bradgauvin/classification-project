@@ -142,9 +142,9 @@ Project Questions:
   - [x] Remove unnecessary features
   - [x] Evaluate Best Performing Models
   - [x] Choose Best performing model for test
-  - [x ] Test Final Model on out-of-sample dataset
-  - [ ] Summarize Performance
-  - [ ] Interpret and document findings
+  - [x] Test Final Model on out-of-sample dataset
+  - [x] Summarize Performance
+  - [x] Interpret and document findings
 
 - Delivery:
   - [ ] 5 min presentation in jupyter notebook
@@ -165,11 +165,14 @@ Project Questions:
  - [x] Clone my repo
  - [x] Import python libraries: pandas, matplotlib, seaborn, numpy, scipy, eli5 and sklearn
  - [x] modeling.py is available for reference - codes had to be adjusted for telco data set, but used as a reference point
- - [ ] follow steps outlined in README.md and churn_report.ipynb
+ - [x] follow steps outlined in README.md and churn_report.ipynb
  
 
 ## Key Findings and Recommendations
- - [ ] Key finding to come when analysis is complete
+ - [x] Autopay, Paperless billing, Fiber internet, and Electronic Check payments effct churn
+ - [x] KNN model showed a 3% increase in predicting churn
+ - [x] Recommend additional exploritory analysis for different features
+
  
 ## Errors and Limitations
  - Didn't split dataset before explortation.  Data set was rerun splitting into train, validate, and test with train being renamed to df2.  This was to ensure that all df2 codes didn't have to be updated. 
@@ -179,5 +182,10 @@ Project Questions:
  - Adjusted features multiple times.  This caused some errors while writing the codes.  If you see features re-defined in the code, this is where I had trouble due to adjusting features.
    - Recommend future features are identified and not changed until modeling is completed
 
+- Copying code from Modeling stage to final notebook caused errors.
+   - Recommend restarting and rerunning kernel before coping code from one notebook to another.
+   - Recommend validating variables are the same or in the same format before copy and pasting.  
+
 ## Future Work 
- - 
+ - Recommend combing modleing results into dataframe and allowing the notebook to choose the highest accurcay/recall values
+ - Try to write and test code out of your notebook and put final results in the notebook you're using.
