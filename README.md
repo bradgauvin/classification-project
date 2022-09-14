@@ -1,5 +1,5 @@
 # Classification-project
-This repository contains the code for the classification project completed as part of the Codeup Data Science curriculum.
+This repository contains the code for the classification project completed as part of the Codeup Data Science curriculum. First project
 
 ## Repo contents:
 
